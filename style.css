@@ -1,0 +1,377 @@
+* {
+  font-family: "FoundryMonoline";
+}
+
+/* HEADER */
+.header {
+  background-color: #eeeeee;
+  padding: 0.2rem 0;
+  color: #707070;
+  font-size: 12px;
+}
+
+.header img {
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+
+.header img {
+  margin-bottom: 3px;
+  margin-right: 4px;
+}
+
+/* LOGO */
+.logo {
+  padding: 0.7rem 0;
+}
+
+.central-de-atendimento {
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0;
+  font-style: italic;
+  color: #727b7a;
+  text-transform: uppercase;
+  letter-spacing: -0.7px;
+}
+
+.telefone {
+  font-size: 26px;
+  line-height: 30px;
+  color: #df0209;
+  font-style: italic;
+  margin: 0;
+  padding-right: 14px;
+}
+
+/* BANNER */
+.banner {
+  background-image: url(retangulo1.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* EMOÇÃO DE DIRIGIR */
+
+.emocao-de-dirigir {
+  padding: 2rem 0;
+}
+
+.emocao-de-dirigir h2 {
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: clamp(32px, 3vw, 46px);
+  font-style: italic;
+  color: #000000;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+}
+
+.emocao-de-dirigir .img-compose {
+  border: 1px solid #d5d5d5;
+  padding: 2px;
+}
+
+.emocao-de-dirigir p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-weight: 400;
+}
+
+/* PREPARESE-SE */
+.prepare-se {
+  color: #ffffff;
+  background-image: url(honda-civic-touring-2021-2.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.prepare-se h2 {
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: clamp(32px, 3vw, 46px);
+  font-style: italic;
+  color: #ffffff;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin-top: 290px;
+}
+
+.beneficios {
+  z-index: 1000;
+}
+
+/* SLIDER */
+.swiper-container {
+  width: 100%;
+  height: 360px;
+}
+
+.swiper-container .swiper-slide {
+  margin-top: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #727b7a;
+}
+
+.swiper-pagination-bullets {
+  margin-top: 60px;
+}
+
+.swiper-slide h5 {
+  font-weight: bold;
+  font-size: 17px;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.swiper-slide img {
+  border: 1px solid #d5d5d5;
+  padding: 3px;
+}
+
+.swiper-slide p {
+  font-size: 12px;
+  max-width: 230px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: 24px;
+  right: auto;
+  top: 110px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  right: 24px;
+  left: auto;
+  top: 110px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+/* PRONTO-PARA-TER */
+
+.pronto-para-ter {
+  padding: 2rem 0;
+}
+
+.pronto-para-ter .card {
+  border-radius: 0;
+}
+
+.pronto-para-ter .card-body {
+  padding: 1rem;
+}
+
+.pronto-para-ter .card-body p {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.pronto-para-ter button {
+  text-transform: uppercase;
+}
+
+.seta-baixo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* REDES SOCIAIS */
+
+.redes-sociais {
+  background-color: #eeeeee;
+  padding: 2rem 0 2rem;
+}
+
+.redes-sociais .destaque {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #df0209;
+  border-radius: 5px;
+}
+
+.redes-sociais .encontre {
+  font-size: 14px;
+}
+
+.redes-sociais .concessionaria {
+  font-size: 19px;
+  letter-spacing: 0px;
+  color: #df0209;
+  font-weight: bold;
+}
+
+.redes-sociais .central-de-atendimento {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.redes-sociais .telefone {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.redes-sociais h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.redes-sociais .icones {
+  background: #c5c5c5 0% 0% no-repeat padding-box;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.redes-sociais .face {
+  padding: 10px 15px;
+  background: #c5c5c5 0% 0% no-repeat padding-box;
+  font-size: 24px;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.redes-sociais i + i {
+  margin-left: 20px;
+}
+
+.logos {
+  background-color: #ffffff;
+  padding: 1.5rem 0;
+}
+
+.transito-melhor {
+  font-size: 12px;
+}
+
+/* FORM */
+
+.posicao-form {
+  margin-top: 120px;
+  z-index: 0;
+}
+
+.formulario {
+  background-color: #e9ecef;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #00000029;
+  padding: 0.3rem 0.7rem;
+}
+
+.input-group > .custom-select:not(:first-child),
+.input-group > .form-control:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+  background-color: #e9ecef;
+  padding-left: 0;
+}
+
+.input-group > .input-group-prepend > .input-group-text {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+}
+
+.form .contato,
+.banner .contato {
+  color: red;
+  font-size: 22px;
+  margin: 0;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.form .solicitar,
+.banner .solicitar {
+  font-size: 14px;
+}
+
+.form button,
+.banner button {
+  text-transform: uppercase;
+}
+
+/********** PC ***************/
+
+@media (min-width: 768px) {
+  .botao-whats {
+    width: 20%;
+  }
+}
+
+/********** MOBILE ***************/
+
+@media (max-width: 768px) {
+  .swiper-slide h5,
+  .swiper-slide p {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 570px) {
+  .banner {
+    background-image: unset;
+    height: auto;
+  }
+
+  .swiper-slide p {
+    max-width: 230px;
+    margin: 0 auto;
+  }
+
+  .swiper-container .swiper-slide {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .prepare-se {
+    height: 450px;
+  }
+}
